@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-in</title>
+    <link rel="stylesheet" href="form.css" />
+    <style></style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="menu">
+        <ul>
+          <li><a href="home.html" target="_blank">Home</a></li>
+          <li><a class="active" href="#">Sign-in</a></li>
+          <li><a href="sign-up.html" target="_blank">Sign-up</a></li>
+          <li><a href="enrolment.html" target="_blank">Enrolment-form</a></li>
+          <li><a href="survey-form.html" target="_blank">survey-form</a></li>
+        </ul>
+      </div>
+      <div class="clearfix">
+        <div>
+          <form action="#" method="POST">
+            <label for="email">Username:</label>
+            <input
+              class="signin"
+              type="text"
+              name="Username"
+              id="email"
+              placeholder="your email"
+            />
+            <br />
+            <br />
+            <label for="pass">Password:</label>
+            <input
+              class="signin"
+              type="password"
+              name="pword"
+              id="pass"
+              placeholder="your phone number"
+            />
+            <br /><br /><br />
+            <input
+              type="checkbox"
+              name="remember"
+              id="rem"
+              value="remember me"
+            />
+            <label for="rem">remember me</label>
+            <br />
+            <div class="submit">
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
